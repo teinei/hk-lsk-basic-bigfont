@@ -1,0 +1,130 @@
+/* CSS Document */
+/* Modified by Joe */
+/*add resposive design*/
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+ /*Here we are setting each td display to block*/
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+/*
+Now the other data-label we have added on each td comes into play.
+*/
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/*add resposive design*/
+/* not working */
+table{
+    font-size: x-large;
+}
+td{
+    width:auto;
+}
+body {  
+     background-color : #ffffff;
+     font-family      : Verdana, Arial, Garamond, san serif;  
+	 font-size        : 120%  
+	 margin-top       : 0.25cm;  
+	 margin-left      : 0.4cm;  
+}
+p {  
+     margin-top       : 0.3cm;  
+     margin-bottom    : 0.0cm;  
+}
+.btn {  /*audio play button*/
+     background-color : #CDCAB3;  
+	 cursor           : pointer;  
+	 color            : #666666;  
+	 text-align       : center;  
+	 font-weight      : bold;  
+     height: 30;
+     width: 30;
+}
+.css_cnt {  
+	 font-size        : 125%;  
+	 padding-right    : 5px;  
+	 padding-left     : 5px;  
+	 width            : 37%; /*192px;*/
+}
+
+.css_cnt2 {  
+	 font-size        : 125%;  
+	 padding-right    : 5px;  
+	 padding-left     : 5px;  
+	 width            : 37%; /*221px;*/
+}
+
+.css_cnt3 {  
+	 font-size        : 125%;  
+	 padding-right    : 5px;  
+	 padding-left     : 5px;  
+	 /*width: 219px;*/
+}
+
+
+.css_hdr {  
+	 font-size        : 0.8em;  
+	 font-weight      : bold;  
+	 color            : #8b887b;  
+	 width            : auto; 
+}
+
+.lsk_hd {  
+	 font-weight      : bold;  
+	 color            : #8b887b;  
+}
+.css_link {  
+	 font-size        : 70%;  
+	 color            : #5B8391;  
+	 text-decoration  : none;  
+	 padding-left     : 0.5cm;  
+}
+.css_hl  {
+    text-decoration  : underline;
+}
+.css_inst
+  {
+  font-size          : 80%;
+  padding-left       : 0.1cm;
+  }
+ 
+
+

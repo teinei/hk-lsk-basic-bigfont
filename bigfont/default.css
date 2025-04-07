@@ -1,0 +1,93 @@
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: x-large;
+    font-style: normal;
+    color: brown;/**/
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+    /**/
+    width: 100%;/**/
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+.menu{
+    background-color: rgb(134, 134, 134);
+}
+img{
+    height:auto;
+}
+td{
+    width:auto;
+    height: auto;   
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+html{
+    /**/
+    background-color:none;
+    border:1px;
+}
+
+TR, td, img{
+    text-align:center;
+    margin:0 auto;
+    /*BACKGROUND-COLOR:#868686;*/
+}
+div{
+    /*text-align:center;*/
+    /*background-color:#7d5437;*/
+}
+img{
+    text-align:center;
+    align:middle;
+}
+.center{
+    text-align:center;
+}
+.middle{
+    text-align:center;
+    margin:0 auto;
+}
+.WHITE{
+    BACKGROUND-COLOR:WHITE;
+}
+.GRAY{
+    BACKGROUND-COLOR:#868686;
+}
+.GREY{
+    BACKGROUND-COLOR:#868686;
+}
+
+.fifty{
+    /*fifty percent width*/
+    width:100%;
+    background-color:#868686;
+}
+.content{
+    background-color:#edede6;
+}
+
+.contents{
+    padding:5px;
+}
+/* Media Query for mobile devices */
+@media screen and (max-width: 600px) {
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: none;
+    padding: 10px;
+  }
+}
